@@ -8,7 +8,7 @@ export const config = {
 const app = new Hono().basePath("/api");
 
 app.get("/", (c) => {
-  return c.json({ message: "modified response" });
+  return c.json({ message: "hello from money tracker server" });
 });
 
 export default handle(app);
