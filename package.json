@@ -1,0 +1,16 @@
+{
+  "name": "money-tracker-server",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.9.0",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.6"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.24.0",
+    "vercel": "^32.4.1"
+  }
+}
