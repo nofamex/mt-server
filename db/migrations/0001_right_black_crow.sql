@@ -1,0 +1,1 @@
+ALTER TABLE "histories" ADD COLUMN "description" varchar;
